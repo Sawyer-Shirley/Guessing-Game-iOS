@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1D399977216CFCDC003E43D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D399976216CFCDC003E43D8 /* AppDelegate.swift */; };
-		1D399979216CFCDC003E43D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D399978216CFCDC003E43D8 /* ViewController.swift */; };
+		1D399979216CFCDC003E43D8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D399978216CFCDC003E43D8 /* GameViewController.swift */; };
 		1D39997C216CFCDC003E43D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D39997A216CFCDC003E43D8 /* Main.storyboard */; };
 		1D39997E216CFCDD003E43D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D39997D216CFCDD003E43D8 /* Assets.xcassets */; };
 		1D399981216CFCDD003E43D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D39997F216CFCDD003E43D8 /* LaunchScreen.storyboard */; };
+		1DF7DF7A217524850077007B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7DF79217524850077007B /* MenuViewController.swift */; };
+		1DF7DF7C217674E20077007B /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7DF7B217674E20077007B /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D399973216CFCDC003E43D8 /* Guessing Game iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guessing Game iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D399976216CFCDC003E43D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D399978216CFCDC003E43D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D399978216CFCDC003E43D8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1D39997B216CFCDC003E43D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D39997D216CFCDD003E43D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D399980216CFCDD003E43D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D399982216CFCDD003E43D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF7DF79217524850077007B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1DF7DF7B217674E20077007B /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1D399976216CFCDC003E43D8 /* AppDelegate.swift */,
-				1D399978216CFCDC003E43D8 /* ViewController.swift */,
+				1D399978216CFCDC003E43D8 /* GameViewController.swift */,
 				1D39997A216CFCDC003E43D8 /* Main.storyboard */,
 				1D39997D216CFCDD003E43D8 /* Assets.xcassets */,
 				1D39997F216CFCDD003E43D8 /* LaunchScreen.storyboard */,
 				1D399982216CFCDD003E43D8 /* Info.plist */,
+				1DF7DF79217524850077007B /* MenuViewController.swift */,
+				1DF7DF7B217674E20077007B /* CustomViewController.swift */,
 			);
 			path = "Guessing Game iOS";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D399979216CFCDC003E43D8 /* ViewController.swift in Sources */,
+				1D399979216CFCDC003E43D8 /* GameViewController.swift in Sources */,
+				1DF7DF7A217524850077007B /* MenuViewController.swift in Sources */,
 				1D399977216CFCDC003E43D8 /* AppDelegate.swift in Sources */,
+				1DF7DF7C217674E20077007B /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
